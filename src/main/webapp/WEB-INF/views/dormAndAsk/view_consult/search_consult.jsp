@@ -372,7 +372,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <thead>
                   <tr class="success">
                     <th>
-                      <input id="all" type="checkbox" class="checkbox" <input type="checkbox" class="checkbox" onclick="$('input[name*=\'check\']').prop('checked',this.checked);" />
+                       <input type="checkbox" class="checkbox" onclick="$('input[name*=\'check\']').prop('checked',this.checked);" />
                     </th>
                     <th>咨询编号</th>
                     <th>主题分类</th>

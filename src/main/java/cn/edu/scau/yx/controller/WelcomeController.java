@@ -55,7 +55,7 @@ public class WelcomeController {
 	@RequestMapping("/load1/{stuId}/{name}")
 	public @ResponseBody Student load1(@PathVariable("stuId")String stuId,@PathVariable("name")String name){
 		Student student=new Student();
-		student.setId("441763199318398749");
+		student.setId(763199318);
 		student.setStudentName("马龙");
 		student.setStuId(20133);
 		student.setAge(10);

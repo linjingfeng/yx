@@ -34,10 +34,7 @@ public class OneCardPassController {
 	 */
 
 
-	@RequestMapping("/add")
-	public String checkIn(){
-		return "/finance/AddOneCardPass";
-	}
+	
 	
 
 	@RequestMapping("/view")
