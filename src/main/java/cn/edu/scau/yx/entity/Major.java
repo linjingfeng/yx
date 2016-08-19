@@ -10,7 +10,7 @@ package cn.edu.scau.yx.entity;
 import java.io.Serializable;
 
 /**
- *@author demo
+ *@author demo 2222
  *@email 1142265923@qq.com
  *@description TODO
  *@date 2016骞�鏈�8鏃ヤ笅鍗�:58:51
