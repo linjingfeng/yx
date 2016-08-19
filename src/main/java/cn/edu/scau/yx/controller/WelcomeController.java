@@ -11,6 +11,9 @@ import cn.edu.scau.yx.entity.Student;
 @RequestMapping("/welcome")
 public class WelcomeController {
 	
+	
+	
+	
 	@RequestMapping("/checkIn")
 	public String checkIn(){
 		return "welcome/checkIn";
@@ -54,6 +57,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/load1/{stuId}/{name}")
 	public @ResponseBody Student load1(@PathVariable("stuId")String stuId,@PathVariable("name")String name){
+		
 		Student student=new Student();
 		student.setId(763199318);
 		student.setStudentName("马龙");
