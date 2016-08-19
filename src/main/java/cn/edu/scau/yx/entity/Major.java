@@ -10,20 +10,20 @@ package cn.edu.scau.yx.entity;
 import java.io.Serializable;
 
 /**
- *@author 赵文俊 
+ *@author demo
  *@email 1142265923@qq.com
  *@description TODO
- *@date 2016年8月18日下午4:58:51
+ *@date 2016骞�鏈�8鏃ヤ笅鍗�:58:51
  *@version v1.0
  */
 public class Major implements Serializable{
 
 	private static final long serialVersionUID = 6251510395296617699L;
 
-	private int id;                //专业id
-	private String name;           //专业名称
-	private String introduce;      //专业简介
-	private Department department; //所在学院
+	private int id;                //涓撲笟id
+	private String name;           //涓撲笟鍚嶇О
+	private String introduce;      //涓撲笟绠�粙
+	private Department department; //鎵�湪瀛﹂櫌
 	public int getId() {
 		return id;
 	}
